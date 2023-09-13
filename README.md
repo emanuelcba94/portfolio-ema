@@ -4,7 +4,7 @@
 
 - 💼 Proyecto realizado con HTML, CSS, JavaScript.
 
-## Author 
+## Autor 
 
 - Emanuel Bonardo
 
