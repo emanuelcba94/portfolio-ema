@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emanuel Bonardo">
+    <meta name="keywords" content="desarrollo frontend, desarrollo web, frontend, hmtl, css, javascript">
+    <meta name="description" content="Desarrollador Frontend">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-ema.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio | Emanuel-Bonardo</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a class="logo-ema" href="#inicio">
+            <img src="./assets/images/logo-2-blanco.png" alt="logo-ema">
+        </a>
+        <nav class="nav" id="nav">
+            <ul class="nav-list">
+                <i class="icon-close fa-solid fa-xmark"></i>
+                <li class="nav-item">
+                    <a href="#sobre-mi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="navbar-theme">
+            <div class="toggle" id="toggle">
+                <i class="indicator"></i>
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div id="icon-bar">
+                <i class="icon-bar fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <!-- Inicio -->
+        <section class="inicio" id="inicio">
+            <div class="inicio-container container">
+                <div class="inicio-texts">
+                    <p class="inicio-saludo">¡Hola! 👋 Yo soy...</p>
+                    <h1 class="inicio-title">Emanuel Bonardo</h1>
+                    <p class="inicio-subtitle">Desarrollador Frontend</p>
+                    <p class="inicio-text">Nacido en Hernando, Córdoba, Argentina.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/emanuelcba94" target="_blank" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="linkedin" href="https://www.linkedin.com/in/emanuelb94/" target="_blank"
+                            title="Linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/emanuelbonardo/" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="arrow-abajo-container">
+                        <a href="#sobre-mi" title="Ir abajo">
+                            <i class="arrow-abajo fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="inicio-imagen">
+                    <img src="./assets/images/perfil.jpg" alt="imagen-perfil">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre-mi -->
+        <section class="sobre-mi">
+            <div class="sobre-mi-container container" id="sobre-mi">
+                <h2 class="titulo-secciones">Sobre mi</h2>
+                <div class="sobre-mi-texts">
+                    <p>Me capacite en la Escuela Digital de <a href="https://www.coderhouse.com/?fc=ar"
+                            target="_blank"><strong>Coderhouse <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                        </a> Argentina. También cuento con estudios y conocimientos en <b>Diseño gráfico</b> y
+                        <b>Fotografía</b>.
+                        Actualmente sigo aprendiendo de manera autodidacta, desarrollando mis habilidades con HTML, CSS
+                        y
+                        JavaScript en <a href="https://www.frontendmentor.io/profile/emanuelcba94" target="_blank">
+                            <strong>Frontend Mentor <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                        </a> realizando los desafíos que presentan a resolver, y a su vez creando proyectos personales.
+                        Soy apasionado y constante en lo que
+                        hago, esto me ayuda siempre a superar y resolver cualquier desafío o proyecto que se me
+                        presenta.
+                    </p>
+                    <p>
+                        <small>- Podes ver más información sobre mi en</small>
+                        <a href="https://linkedin.com/in/emanuel-bonardo-041b4a15b" target="_blank"><strong>Linkedin <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                        </a>.
+                    </p>
+                    <a href="./assets/docs/cv-emanuel-bonardo.pdf" target="_blank">
+                        <button class="button btn-sobre-mi" type="button">
+                            <i class="fa-solid fa-download"></i>
+                            Descargar CV
+                        </button>
+                    </a>
+                </div>
+                <!-- habilidades -->
+                <div class="habilidades">
+                    <h3 class="subtitulo-secciones">HABILIDADES</h3>
+                    <div class="habilidades-accordion">
+                        <!-- accordion-1 -->
+                        <div class="accordion">
+                            <div class="accordion-container">
+                                <h3 class="accordion-title">Lenguajes, Frameworks y Herramientas:</h3>
+                                <i class="chevron-down fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>SASS/SCSS</span>
+                                <span>JavaScript</span>
+                                <span>Bootstrap</span>
+                                <span>Tailwind</span>
+                                <span>Git/GitHub</span>
+                                <span>ReactJS</span>
+                                <span>Angular</span>
+                                <span>Diseño responsivo</span>
+                                <span>API/Fetch</span>
+                                <span>JSON</span>
+                            </div>
+                        </div>
+                        <!-- accordion-2 -->
+                        <div class="accordion">
+                            <div class="accordion-container">
+                                <h3 class="accordion-title">Software:</h3>
+                                <i class="chevron-down fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <span>Visual Studio Code</span>
+                                <span>Adobe Illustrator</span>
+                                <span>Adobe Photoshop</span>
+                                <span>Adobe Premiere</span>
+                                <span>Figma</span>
+                                <span>CorelDraw</span>
+                            </div>
+                        </div>
+                        <!-- accordion-3 -->
+                        <div class="accordion">
+                            <div class="accordion-container">
+                                <h3 class="accordion-title">Idiomas:</h3>
+                                <i class="chevron-down fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <span>Español (Nativo)</span>
+                                <span>Inglés (B1 - Nivel Intermedio)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- conocimientos -->
+                <div class="conocimientos">
+                    <h3 class="subtitulo-secciones"></h3>
+                    <!-- carrusel de logos -->
+                    <div class="slider">
+                        <div class="logos-slide">
+                            <div class="slide">
+                                <a href="https://code.visualstudio.com/" title="Visual Studio Code" target="_blank">
+                                    <img src="./assets/images/icons-logos/0-visual-studio-code.svg"
+                                        alt="logo-visual-studio-code">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://developer.mozilla.org/es/docs/Web/HTML" title="HTML5" target="_blank">
+                                    <img src="./assets/images/icons-logos/1-html-5.svg" alt="logo-html-5">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://developer.mozilla.org/es/docs/Web/CSS" title="CSS3" target="_blank">
+                                    <img src="./assets/images/icons-logos/2-css-3.svg" alt="logo-css-3">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://sass-lang.com/" title="SASS" target="_blank">
+                                    <img src="./assets/images/icons-logos/3-sass.svg" alt="logo-sass">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://getbootstrap.com/" title="Bootstrap" target="_blank">
+                                    <img src="./assets/images/icons-logos/4-bootstrap.svg" alt="logo-bootstrap">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://tailwindcss.com/" title="Tailwind" target="_blank">
+                                    <img src="./assets/images/icons-logos/5-tailwindcss-icon.svg"
+                                        alt="logo-tailwindcss">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://git-scm.com/" title="Git" target="_blank">
+                                    <img src="./assets/images/icons-logos/6-git-icon.svg" alt="logo-git">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://github.com/" title="GitHub" target="_blank">
+                                    <img src="./assets/images/icons-logos/7-github-icon.svg" alt="logo-github">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" title="JavaScript"
+                                    target="_blank">
+                                    <img src="./assets/images/icons-logos/8-javascript.svg" alt="logo-javascript">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://nodejs.org/es" title="Node.js" target="_blank">
+                                    <img src="./assets/images/icons-logos/9-nodejs-icon-alt.svg" alt="logo-nodejs">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://es.react.dev/" title="React" target="_blank">
+                                    <img src="./assets/images/icons-logos/10-react.svg" alt="logo-react">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://angular.io/" title="Angular" target="_blank">
+                                    <img src="./assets/images/icons-logos/11-angular-icon.svg" alt="logo-angular">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://www.typescriptlang.org/" title="TypeScript" target="_blank">
+                                    <img src="./assets/images/icons-logos/12-typescript-icon.svg" alt="logo-typescript">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://www.figma.com/" title="Figma" target="_blank">
+                                    <img src="./assets/images/icons-logos/13-figma.svg" alt="logo-figma">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://www.adobe.com/ar/products/illustrator.html" title="Adobe Illustrator">
+                                    <img src="./assets/images/icons-logos/14-adobe-illustrator.svg"
+                                        alt="logo-adobe-illustrator">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://www.adobe.com/ar/products/photoshop.html" title="Adobe Photoshop"
+                                    target="_blank">
+                                    <img src="./assets/images/icons-logos/15-adobe-photoshop.svg"
+                                        alt="logo-adobe-photoshop">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://www.adobe.com/la/products/premiere.html" title="Adobe Premiere"
+                                    target="_blank">
+                                    <img src="./assets/images/icons-logos/16-adobe-premiere.svg"
+                                        alt="logo-adobe-premiere">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos">
+            <div class="proyectos-container" id="proyectos">
+                <h2 class="titulo-secciones">PROYECTOS</h2>
+                <p class="proyectos-text">Aquí presento una selección de mis proyectos más relevantes.</p>
+                <div class="proyectos-contenido">
+                    <!-- Proyecto-1 -->
+                    <div class="proyecto">
+                        <h3 class="proyecto-title">
+                            <i class="fa-regular fa-folder-open"></i>
+                            Portfolio
+                        </h3>
+                        <p class="proyecto-text">Mi Portfolio codificado sólo con HTML, CSS y JavaScript.</p>
+                        <div class="proyecto-imagen">
+                            <img src="./assets/images/img-proyectos/1-portfolio.jpg" alt="1-proyecto">
+                        </div>
+                        <div class="proyecto-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="buttons-proyecto">
+                            <a href="#" target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver código
+                                    <i class="fa-brands fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="#" target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver sitio
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Proyecto-2 -->
+                    <div class="proyecto">
+                        <h3 class="proyecto-title">
+                            <i class="fa-regular fa-folder-open"></i>
+                            To Do List
+                        </h3>
+                        <p class="proyecto-text">To Do List (Lista de tareas) implementando CRUD.</p>
+                        <div class="proyecto-imagen">
+                            <img src="./assets/images/img-proyectos/2-to-do-list.jpg" alt="">
+                        </div>
+                        <div class="proyecto-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="buttons-proyecto">
+                            <a href="#" target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver código
+                                    <i class="fa-brands fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="#" target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver sitio
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Proyecto-3 -->
+                    <div class="proyecto">
+                        <h3 class="proyecto-title">
+                            <i class="fa-regular fa-folder-open"></i>
+                            Pokédex
+                        </h3>
+                        <p class="proyecto-text">Solicitando la API de PokeAPI con Fetch y Async/await.</p>
+                        <div class="proyecto-imagen">
+                            <img src="./assets/images/img-proyectos/3-pokedex.jpg" alt="">
+                        </div>
+                        <div class="proyecto-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API/Fetch</span>
+                        </div>
+                        <div class="buttons-proyecto">
+                            <a href="#" target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver código
+                                    <i class="fa-brands fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="#" target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver sitio
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Proyecto-4 -->
+                    <div class="proyecto">
+                        <h3 class="proyecto-title">
+                            <i class="fa-regular fa-folder-open"></i>
+                            Formulario interactivo
+                        </h3>
+                        <p class="proyecto-text">Manipulación del DOM y validación de Formulario.
+                            Proyecto realizado en <a href="https://www.frontendmentor.io/profile/emanuelcba94"
+                                target="_blank">
+                                <strong>Frontend Mentor <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                            </a></p>
+                        <div class="proyecto-imagen">
+                            <img src="./assets/images/img-proyectos/4-form-fm.jpg" alt="formulario-frontend-mentor">
+                        </div>
+                        <div class="proyecto-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="buttons-proyecto">
+                            <a href="https://github.com/emanuelcba94/interactive-card-details-form-main"
+                                target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver código
+                                    <i class="fa-brands fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://emanuelcba94.github.io/interactive-card-details-form-main/"
+                                target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver sitio
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Proyecto-5 -->
+                    <div class="proyecto">
+                        <h3 class="proyecto-title">
+                            <i class="fa-regular fa-folder-open"></i>
+                            Landige Page
+                        </h3>
+                        <p class="proyecto-text">Página de destino con diseño responsivo y menu móvil.
+                            Proyecto realizado en <a href="https://www.frontendmentor.io/profile/emanuelcba94"
+                                target="_blank">
+                                <strong>Frontend Mentor <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                            </a></p>
+                        <div class="proyecto-imagen">
+                            <img src="./assets/images/img-proyectos/5-landinge-page-fm.jpg"
+                                alt="landinge-page-frontend-mentor">
+                        </div>
+                        <div class="proyecto-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Diseño responsivo</span>
+                        </div>
+                        <div class="buttons-proyecto">
+                            <a href="https://github.com/emanuelcba94/solution-sunnyside-agency-frontend-mentor"
+                                target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver código
+                                    <i class="fa-brands fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://emanuelcba94.github.io/solution-sunnyside-agency-frontend-mentor/"
+                                target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver sitio
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Proyecto-6 -->
+                    <div class="proyecto">
+                        <h3 class="proyecto-title">
+                            <i class="fa-regular fa-folder-open"></i>
+                            Panel de redes sociales
+                        </h3>
+                        <p class="proyecto-text">Utilización de Grid Layout y selector de tema claro u oscuro (Dark
+                            Mode).
+                            Proyecto realizado en <a href="https://www.frontendmentor.io/profile/emanuelcba94"
+                                target="_blank">
+                                <strong>Frontend Mentor <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                            </a></p>
+                        <div class="proyecto-imagen">
+                            <img src="./assets/images/img-proyectos/6-social-media-fm.jpg"
+                                alt="social-media-frontend-mentor">
+                        </div>
+                        <div class="proyecto-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="buttons-proyecto">
+                            <a href="https://github.com/emanuelcba94/solution-social-media-dashboard-with-theme-switcher-master"
+                                target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver código
+                                    <i class="fa-brands fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://emanuelcba94.github.io/solution-social-media-dashboard-with-theme-switcher-master/"
+                                target="_blank">
+                                <button class="button btn-proyecto">
+                                    ver sitio
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicio -->
+        <section class="servicio">
+            <div class="servicio-container container">
+                <p class="servicio-faq">¿Tenes algún proyecto en mente?</p>
+                <h3 class="servicio-title">Estoy disponible para iniciar tu proyecto</h3>
+                <p class="servicio-text">¡Contactame y charlamos!</p>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto">
+            <div class="contacto-container container" id="contacto">
+                <h2 class="titulo-secciones">CONTACTO</h2>
+                <div class="contacto-content">
+                    <div>
+                        <p class="contacto-email">Podes escribirme a mi <b>email</b> <i
+                                class="fa-solid fa-envelope"></i> por cualquier consulta, te responderé lo antes
+                            posible:
+                        </p>
+                        <a class="email" title="Escribime al siguiente correo"
+                            href="mailto:emanuelb94@outlook.com">emanuelb94@outlook.com</a>
+                    </div>
+                    <img src="./assets/images/undraw_email.svg" alt="ilustracion-email">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copy">Copyright &copy; 2023. Emanuel Bonardo. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://github.com/emanuelcba94" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/emanuelb94/" target="_blank" title="Linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/emanuelbonardo/" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- btn-arriba -->
+    <div class="btn-arriba" id="btn-arriba" title="Ir al Inicio">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- js -->
+    <script src="./js/menu.js"></script>
+    <script src="./js/arrow-up.js"></script>
+    <script src="./js/dark-mode.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
